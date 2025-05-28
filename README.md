@@ -19,6 +19,12 @@ O objetivo é fornecer uma plataforma prática e didática para estudo, testes e
 
 - Sistema operacional: **Ubuntu 24.04 LTS**
 - Acesso à internet para baixar as imagens dos containers
+- **Um SIEM externo** (como Wazuh, Elastic, Splunk etc.) em outra VM, para integração com os serviços do lab
+
+> ℹ️ Este projeto não inclui um SIEM por padrão. Para um fluxo completo de monitoramento + resposta a incidentes, recomenda-se a integração com uma ferramenta como **Wazuh**, **Elastic Stack** ou similar em uma VM separada. Assim, você poderá:
+> - Enviar alertas diretamente para o TheHive
+> - Automatizar ações com o Shuffle
+> - Enriquecer incidentes com o MISP
 
 ---
 
