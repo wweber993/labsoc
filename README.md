@@ -7,12 +7,12 @@ O objetivo é fornecer uma plataforma prática e didática para estudo, testes e
 
 ## 📋 Índice
 
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Acessos ao Ambiente](#acessos-ao-ambiente)
-- [Requisitos de Hardware Recomendados](#requisitos-de-hardware-recomendados)
-- [Referências](#referências)
-- [Licença](#licença)
+- [🔧 Pré-requisitos](#-pré-requisitos)
+- [🛠️ Instalação](#-instalação)
+- [🧪 Acessos ao Ambiente](#-acessos-ao-ambiente)
+- [⚙️ Requisitos de Hardware Recomendados](#-requisitos-de-hardware-recomendados)
+- [📚 Referências](#-referências)
+- [⚖️ Licença](#-licença)
 
 ---
 
@@ -28,19 +28,6 @@ O objetivo é fornecer uma plataforma prática e didática para estudo, testes e
 > - Enriquecer incidentes com o MISP
 
 ---
-## ⚙️ Requisitos de Hardware Recomendados
-
-Para garantir o funcionamento adequado das ferramentas TheHive, Shuffle e MISP em uma única VM, recomendamos os seguintes recursos mínimos:
-
-| Recurso            | Mínimo Recomendado          | Observações                                  |
-|--------------------|-----------------------------|-----------------------------------------------|
-| CPU                | 4 vCPUs                     | Pode usar mais se possível (ex: 8 vCPUs)      |
-| Memória RAM        | 8 GB                        | Idealmente 12 GB ou mais para fluidez         |
-| Armazenamento      | 40 GB SSD                   | O Elasticsearch pode crescer rapidamente      |
-| Sistema Operacional| Ubuntu 24.04 LTS            | Testado e compatível com o script `deploy.sh` |
-| Rede               | Acesso à Internet           | Necessário para baixar imagens Docker         |
-
-> 💡 Para ambientes mais robustos (ex: com muitos dados ou uso contínuo), considere **16 GB RAM e 100 GB SSD**.
 
 ## 🛠️ Instalação
 
@@ -88,6 +75,22 @@ Após a instalação, os seguintes serviços estarão disponíveis:
 - **Notas:** Altere a senha nas configurações do MISP.
 
 ⚠️ **Importante:** recomenda-se alterar todas as credenciais padrão após o primeiro login para garantir a segurança do ambiente.
+
+---
+
+## ⚙️ Requisitos de Hardware Recomendados
+
+Para garantir o funcionamento adequado das ferramentas TheHive, Shuffle e MISP em uma única VM, recomendamos os seguintes recursos mínimos:
+
+| Recurso            | Mínimo Recomendado          | Observações                                  |
+|--------------------|-----------------------------|-----------------------------------------------|
+| CPU                | 4 vCPUs                     | Pode usar mais se possível (ex: 8 vCPUs)      |
+| Memória RAM        | 8 GB                        | Idealmente 12 GB ou mais para fluidez         |
+| Armazenamento      | 40 GB SSD                   | O Elasticsearch pode crescer rapidamente      |
+| Sistema Operacional| Ubuntu 24.04 LTS            | Testado e compatível com o script `deploy.sh` |
+| Rede               | Acesso à Internet           | Necessário para baixar imagens Docker         |
+
+> 💡 Para ambientes mais robustos (ex: com muitos dados ou uso contínuo), considere **16 GB RAM e 100 GB SSD**.
 
 ---
 
