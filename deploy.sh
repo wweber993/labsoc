@@ -4,6 +4,7 @@ set -e
 
 # Detecta o IP da VM
 VM_IP=$(hostname -I | awk '{print $1}')
+export VM_IP
 echo "🌐 IP detectado da VM: $VM_IP"
 
 ############################
