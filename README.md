@@ -1,7 +1,5 @@
 # 🧠 SOC Lab: TheHive + Shuffle + MISP
 
-![Logo do Projeto](https://raw.githubusercontent.com/wweber993/labsoc/main/logo.png)
-
 Este projeto configura um ambiente completo de laboratório para um Centro de Operações de Segurança (SOC), integrando as ferramentas open source **TheHive**, **Shuffle** e **MISP**.  
 O objetivo é fornecer uma plataforma prática e didática para estudo, testes e demonstrações de automação de resposta a incidentes e gerenciamento de ameaças.
 
