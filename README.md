@@ -7,12 +7,12 @@ O objetivo é fornecer uma plataforma prática e didática para estudo, testes e
 
 ## 📋 Índice
 
-- 🔧 [Pré-requisitos](#pré-requisitos)
-- ⚙️ [Requisitos de Hardware Recomendados](#requisitos-de-hardware-recomendados)
-- 🛠️ [Instalação](#instalação)
-- 🧪 [Acessos ao Ambiente](#acessos-ao-ambiente)
-- 📚 [Referências](#referências)
-- ⚖️ [Licença](#licença)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Acessos ao Ambiente](#acessos-ao-ambiente)
+- [Requisitos de Hardware Recomendados](#requisitos-de-hardware-recomendados)
+- [Referências](#referências)
+- [Licença](#licença)
 
 ---
 
