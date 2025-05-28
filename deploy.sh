@@ -103,7 +103,7 @@ mkdir -p misp && cd misp
 curl --proto '=https' --tlsv1.2 -O https://raw.githubusercontent.com/NUKIB/misp/main/docker-compose.yml
 
 echo "🛠️ Ajustando docker-compose.yml do MISP..."
-sed -i "s|MISP_BASEURL: http://localhost:8080|MISP_BASEURL: http://${VM_IP}:8080|g" docker-compose.yml
+sed -i "s|MISP_BASEURL: http://:8080|MISP_BASEURL: http://$(hostname -I | awk '{print $1}' | xargs):8080|g" docker-compose.yml
 sed -i 's/127.0.0.1://g' docker-compose.yml
 
 docker compose up -d
