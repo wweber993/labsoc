@@ -1,1 +1,1 @@
-# labsoc
+# SOC Lab: TheHive + Shuffle + MISP
